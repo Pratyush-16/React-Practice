@@ -3,6 +3,7 @@
 The colour of “Designation:” should be green.
 The colour of “Experience:” should be blue. 
  */
+import React from "react"
 
 const EmployeeCard = 
 [{ name:"Ronaldo", designation:"Football", workExperience:"8 years" },
