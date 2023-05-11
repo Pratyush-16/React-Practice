@@ -1,5 +1,6 @@
 
 import './App.css';
+import { Articles } from './Components/Articles';
 import { Gadgets } from './Components/Gadgets';
 import { Hello } from './Components/Hello';
 import { Phones } from './Components/Phones';
@@ -73,6 +74,11 @@ const productsOne = [
   },
   { id: 8, name: 'mobile', description: 'iPhone 12', price: 90000 },
 ]
+
+const title = 'React is awesome'
+const content = 'React is a JavaScript library for building user interfaces.'
+
+
 function App() {
   return (
     <div className="App">
@@ -91,6 +97,8 @@ function App() {
       
       <Phones productsOne={productsOne}/>
       <hr/>
+
+      <Articles title={title} content={content}/>
     </div>
   );
 }
